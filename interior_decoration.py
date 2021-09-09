@@ -28,7 +28,7 @@ def test_higher_order_functions():
             def wrapped_function():
                 return f
             return wrapped_function
-        for x in xrange(n):
+        for x in range(n):
             f = add_one_wrap(f)
         return f
 
